@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'providers/subscription_provider.dart';
-import 'screens/home_screen.dart';
+import 'screens/splash_screen.dart';
 import 'utils/constants.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         title: 'Subscription Tracker',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.lightTheme,
-        home: const HomeScreen(),
+        home: const SplashScreen(),
       ),
     );
   }
